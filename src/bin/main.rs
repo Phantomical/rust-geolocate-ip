@@ -9,5 +9,5 @@ fn main() {
 	println!("{:?}", addrstr);
 	let addr: net::Ipv4Addr = addrstr.parse().unwrap();
 
-	println!("{:?}", geolocate_ip::lookup_country(&addr));
+	println!("{:?}", geolocate_ip::lookup_ip(&addr));
 }
