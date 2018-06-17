@@ -84,7 +84,6 @@ fn lookup_ip_impl(
 /// # }
 /// ```
 pub fn lookup_ip(addr: &Ipv4Addr) -> Option<&'static str> {
-    println!("lookup_country: {:?}", addr);
     let slice = &MAPPING;
     lookup_ip_impl(
         u32::from(*addr).swap_bits(), 
