@@ -1,0 +1,10 @@
+[package]
+name = "geolocate-ip"
+version = "0.0.1"
+authors = ["STEAMROLLER"]
+
+[dependencies]
+bit_reverse = "0.1"
+
+[build-dependencies]
+csv = "1"
