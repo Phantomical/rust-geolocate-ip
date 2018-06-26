@@ -2,6 +2,7 @@
 name = "geolocate-ip"
 version = "0.0.1"
 authors = ["STEAMROLLER"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 bit_reverse = "0.1"
